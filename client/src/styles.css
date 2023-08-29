@@ -1,0 +1,109 @@
+.navbar-header {
+    width: 98%; 
+    height: 60px; 
+    padding: 0 25px; 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(79deg, rgb(3, 3, 154), rgb(207, 8, 41), rgb(4, 4, 150));
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px; 
+}
+
+.navbar-header > div:nth-child(2) > a {
+    margin: 0 10px;
+}
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.register-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signup-button {
+    background-color: blue;
+}
+
+.login-section {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.login-button {
+    background-color: green;
+}
+
+
+.register-form.post_form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left; 
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; 
+}
+
